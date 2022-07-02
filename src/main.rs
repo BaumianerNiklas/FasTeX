@@ -10,8 +10,8 @@ struct Args {
     #[clap(value_parser)]
     code: String,
 
-    /// The foreground color of the text. Has to be one of the colors provided by xcolors `dvipsnames`, `svgnames`, and `x11names`
-    #[clap(short = 'f', long = "color")]
+    /// The color of the text. Has to be one of the colors provided by xcolors `dvipsnames`, `svgnames`, and `x11names`
+    #[clap(short = 'c', long = "color")]
     color: Option<String>,
 
     /// The margin to text the picture should have in pt
