@@ -6,7 +6,7 @@ Quickly compile LaTeX epxressions to beautiful PNGs.
 fastex --color green --margin 5 "1+2+3+\dots + n = \sum\limits_{k=0}^n k = \frac{n(n+1)}{2}"
 ```
 
-This will result in the following PNG to be saved to your current directory:
+This will result in the following PNG being saved to your current directory:
 ![example](example.png)
 
 ## Installation
